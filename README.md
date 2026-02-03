@@ -1,12 +1,12 @@
 # Gabrielll
 -Estudante de programação
 
-# APRENDENDO
+#📘 APRENDENDO
 - HTML
 - C
 - JavaScript
 - Lógica de programação
 - Git e GitHub
 
-# OBJETIVO
+#🎯 OBJETIVO
 - Evoluir e Oportunidade na área
