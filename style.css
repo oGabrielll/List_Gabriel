@@ -16,6 +16,7 @@ body {
 
 .container {
   background: #1e1e1e;
+  color: #ffffff;
   padding: 25px 30px;
   border-radius: 12px;
   width: 100%;
@@ -66,3 +67,4 @@ li {
   border-radius: 6px;
   margin-bottom: 8px;
 }
+
