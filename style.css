@@ -9,101 +9,59 @@ body {
   min-height: 100vh;
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
-/* Card principal */
 .container {
-  background: #111827;
-  padding: 25px 30px;
+  background: #1e1e1e;
+  padding: 25px;
   border-radius: 12px;
-  width: 100%;
-  max-width: 380px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-}
-
-/* Título */
-.container h1 {
-  color: #f9fafb;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   text-align: center;
-  margin-bottom: 20px;
 }
 
-/* Input + botão */
-.form {
+h1 {
+  margin-bottom: 15px;
+}
+
+.input-area {
   display: flex;
   gap: 10px;
+  margin-bottom: 15px;
 }
 
-.form input {
+input {
   flex: 1;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 8px;
+  border-radius: 6px;
   border: none;
   outline: none;
-  background: #1f2933;
-  color: #fff;
 }
 
-.form input::placeholder {
-  color: #9ca3af;
-}
-
-.form button {
-  padding: 10px 15px;
+button {
+  background: #00b4d8;
+  color: #000;
   border: none;
-  border-radius: 8px;
-  background: #2563eb;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.form button:hover {
-  background: #1e40af;
-}
-
-/* Lista */
-ul {
-  list-style: none;
-  margin-top: 20px;
-}
-
-/* Item */
-li {
-  background: #1f2933;
-  color: #e5e7eb;
-  padding: 10px 12px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  animation: fadeIn 0.3s ease;
-}
-
-/* Botão remover */
-li button {
-  background: #dc2626;
-  border: none;
-  color: #fff;
-  padding: 5px 8px;
+  padding: 8px 12px;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
 }
 
-li button:hover {
-  background: #991b1b;
+button:hover {
+  background: #48cae4;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+ul {
+  list-style: none;
+}
+
+li {
+  background: #2a2a2a;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
 }
